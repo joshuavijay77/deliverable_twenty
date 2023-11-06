@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
 	<title>JavaScript Video Controls</title>
 	<link rel="stylesheet" type="text/css" href="css/video.css">
+	<script src="js/video.js"></script>
 </head>
-<body> 
+<body>
 <main>
 	<h1>JavaScript Video Controls</h1>
 	<div class = "options">
@@ -17,20 +18,20 @@
 	</div>
 
 	<figure>
-
-		<video class = "video" 
-			autoplay="false" 
-			width="640" 
-			height="360" 
-			id="player1" 
+		<video class = "video"
+			autoplay="false"
+			width="640"
+			height="360"
+			id="player1"
 			preload="none"
 			src="assets/marchingband.mov">
-			  
-		    <track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions">	
+
+		    <track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions">
 		  		Your browser does not support HTML5 video.
 		</video>
 		<figcaption>[The Michigan Marching Band]</figcaption>
-		</figure> 
+	</figure>
+
 	<button id="mute">Mute</button><br>
 
 	<label for="slider">Volume</label>: 0 <input type="range" id="slider" min="0" max="100" value="100" step="10"> 100%<br>
@@ -42,5 +43,5 @@
 	<p>Video courtesy of Allison Sweet.</p>
 
 </main>
-</body> 
+</body>
 </html>
